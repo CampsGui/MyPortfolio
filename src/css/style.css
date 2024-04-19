@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway, Verdana, Geneva, Tahoma, sans-serif
+}
+
+h1 {
+    font-style: italic;
+}
+
+h3 {
+    font-size: small;
+    margin-top: 2px;
+}
+
+body{
+  background: linear-gradient(rgb(0, 0, 0) 39%, rgb(30, 0, 0));
+  color: #ffffff;
+}
+
+.first_section {
+  position: relative;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0) 60%, rgb(0, 0, 0));
+}
+
+.main__background {
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+}
+
+.main_text {
+  color: rgb(228, 227, 227);
+  padding-top: 33vh;
+  text-align: center;
+  padding-right: 40px;
+}
+
+.main_title {
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subtitle{
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+.contatos{
+  padding-top: 5vh;
+  text-align: center;
+  padding-right: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 75px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.contato{
+  background-color: rgb(165, 165, 165);
+  border-radius: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.titles{
+  color: rgb(255, 255, 255);
+  font-size: 2.8rem;
+  text-decoration: underline rgb(66, 1, 1);
+  margin-top: 5vh;
+  margin-bottom: 4vh;
+  margin-left: 1.5em;
+}
+
+.main_info{
+  margin-top: 5vh;
+  margin-left: 3em;
+  margin-right: 15em;
+  display: flex;
+  justify-content: space-between;
+  gap: 10em;
+  align-items: center;
+}
+
+.developer{
+  width: 380px;
+  height: 390px;
+  border-radius: 250px;
+  margin-bottom: 5vh;
+  margin-left: 1em;
+}
+
+.second_text{
+  text-transform: uppercase;
+  font-size: 1em;
+  line-height: 2em;
+  letter-spacing: 0.3rem;
+  text-decoration: underline rgb(114, 114, 114);
+  margin-left: 10em;
+  text-align: justify;
+}
+
+.hardSkills{
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  text-align: center;
+  padding-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(4, 155px);
+  grid-gap: 20px;
+  border-radius: 200px;
+  justify-content: center;
+}
+
+.Skills{
+  color: rgb(206, 206, 206);
+  background-color: rgba(255, 0, 0, 0.425);
+  border-radius: 200px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.myprojects {
+  padding-top: 3vh;
+  margin-top: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 29.5px;
+  width: 100%;
+  justify-content: center;
+}
+
+.projects {
+  background-color: rgba(255, 0, 0, 0.425);
+  height: 500px;
+  width: 300px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.projects p{
+  font-size: 1.2em;
+  font-style: italic;
+  font-style: bold;
+}
+
+footer {
+  margin-top: 10vh;
+  padding: 25px;
+  background-color: rgb(30, 0, 0);
+  justify-content: center;
+  text-align: center;
+}

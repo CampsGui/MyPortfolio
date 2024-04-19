@@ -1,0 +1,68 @@
+/* Adicione aqui as regras de estilo específicas para dispositivos móveis e tablets */
+
+@media only screen and (max-width: 720px) {
+  /* Estilos para dispositivos com largura de até 768px (tablets em modo retrato e dispositivos móveis) */
+
+  .first_section {
+    position: relative;
+    min-height: 100vh;
+    justify-content: center; /* Centralizando horizontalmente o conteúdo */
+    align-items: center; /* Centralizando verticalmente o conteúdo */
+    text-align: center; /* Centralizando o texto */
+}
+
+.main_text {
+    color: rgb(228, 227, 227);
+    padding-top: 10vh; /* Ajustando o espaçamento superior */
+}
+
+.contatos {
+    padding-top: 3vh; /* Ajustando o espaçamento superior */
+    display: flex;
+    justify-content: center; /* Centralizando os ícones de contato horizontalmente */
+}
+
+.contato {
+    background-color: rgb(165, 165, 165);
+    border-radius: 100px;
+    padding: 10px; /* Reduzindo o preenchimento para os ícones de contato */
+    margin: 0 10px; /* Adicionando margem entre os ícones de contato */
+}
+
+  .main_info {
+      flex-direction: column; /* Mudando a direção do flex container para empilhar verticalmente em telas menores */
+      margin: 0 auto; /* Centralizando o conteúdo */
+      max-width: 80%; /* Limitando a largura do conteúdo para evitar que ele fique muito largo em telas pequenas */
+      text-align: center; /* Centralizando o texto */
+  }
+
+  .developer {
+      width: 250px; /* Reduzindo o tamanho da imagem de perfil */
+      height: 250px; 
+      margin-left: 0; /* Removendo a margem esquerda para centralizar a imagem */
+      margin-bottom: 20px; /* Espaçamento inferior entre a imagem e o texto */
+  }
+
+  .second_text {
+      margin-left: 0; /* Removendo a margem esquerda para centralizar o texto */
+      text-align: justify; /* Justificando o texto */
+  }
+
+  .hardSkills {
+      grid-template-columns: repeat(2, 120px); /* Reduzindo o número de colunas para evitar que as habilidades se sobreponham em telas menores */
+  }
+
+  .projects {
+      width: 80%; /* Reduzindo a largura dos projetos para que eles se ajustem melhor em telas menores */
+      margin-bottom: 20px; /* Espaçamento inferior entre os projetos */
+  }
+
+  .main__background {
+    width: 100%; /* Definindo a largura do vídeo para ocupar toda a largura da página */
+    height: 100vh; /* Definindo a altura do vídeo como auto para manter a proporção original */
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+}
+
